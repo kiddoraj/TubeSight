@@ -1,0 +1,12 @@
+i{% extends 'base.html' %}
+{% block content %}
+    <h1>Welcome to TubeSight</h1>
+    <p>TubeSight is a web application that allows you to search for YouTube videos,
+     get personalized recommendation and channels to follow to stay up to date on your prefered content.</p>
+{% endblock %}
+<form action="{{url_for('search') method = "GET"}}"></form>
+        <input type="placeholder = "search for videos">
+        <button type = "submit">Search</button>
+    </form>
+    {% endblock %}
+```

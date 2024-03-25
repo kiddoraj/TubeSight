@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>Search for Videos</h1>
+    <form action="{{url_for('search')}}" method="GET">
+        <input type="text" name="search" placeholder="search for videos">
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Search Results</h2>
+    <ul>
+        {% for video in videos %}
+            <li><a href="{{url_for('video', video_id=video.id)}}">{{video.title}}</a></li>
+            <p>{{video.description}}</p>
+            <p>{{video.published_at}}</p>
+            <p>{{video.channel.name}}</p>
+            <p>{{video.channel.description}}</p>
+            
+        {% endfor %}
+    </ul>
+{% endblock %}
+```

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Welcome to S Tube Sigh, a revolutionary video search web service powered by advanced AI analysis. S Tube Sigh aims to enhance the way users discover and consume videos online. With our platform, users can effortlessly search for videos based on their queries, with results intelligently arranged from best match to worst match. Additionally, S Tube Sigh provides a curated list of the best channels to follow related to the user's query, ensuring users stay informed and engaged.
+Welcome to TubeSight, a revolutionary video search web service powered by advanced AI analysis. TubeSight aims to enhance the way users discover and consume videos online. With our platform, users can effortlessly search for videos based on their queries, with results intelligently arranged from best match to worst match. Additionally, TubeSight provides a curated list of the best channels to follow related to the user's query, ensuring users stay informed and engaged.
 
 ## Features
 
